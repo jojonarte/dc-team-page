@@ -1,0 +1,43 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.portrait {
+	max-width: 305px;
+	min-width: 156px;
+	position: relative;
+	padding: 1.875rem;
+}
+
+.portrait img {
+	max-width: 238px;
+	min-width: 138px;
+}
+
+.portrait .role {
+	font-family: 'PT Serif', serif;
+	font-size: 0.75rem;
+	line-height: 1rem;
+
+	position: absolute;
+	right: 1rem;
+	top: 1.875rem;
+	writing-mode: vertical-lr;
+	z-index: 99;
+}
+
+.portrait .title {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	line-height: 1.6875rem;
+	font-size: 1.125rem;
+}
+
+@media (max-width: 768px) {
+	.portrait .title {
+		line-height: 1.3125;
+		font-size: 0.875rem;
+	}
+}
