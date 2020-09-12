@@ -101,10 +101,10 @@ main {
 		margin: 0;
 	}
 	.content .portrait:nth-child(2n) {
-		margin-top: 5rem;
+		margin-top: 3rem;
 	}
 	.content .portrait:nth-last-child(1) {
-		padding-top: 5rem;
+		padding-top: 3rem;
 	}
 }
 
